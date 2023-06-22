@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssLogin.css">
+
+    <title>Tela de Login</title>
+</head>
+
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="header_box">
+                <h1>Login</h1>
+                <i id="mode_moon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <div id="social_midia">
+                <a href="#">
+                    <img src="./imgs/google.png" alt="Google Logo">
+                </a>
+
+                <a href="#">
+                    <img src="./imgs/apple.png" alt="Apple Logo">
+                </a>
+
+                <a href="#">
+                    <img src="./imgs/facebook.png" alt="Facebook Logo">
+                </a>
+            </div>
+
+            <div id="inputs">
+                <div class="input_box">
+                    <label for="user">
+                        Usuário
+                        <div class="input_field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="user" name="user">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input_box">
+                    <label for="email">
+                        E-mail
+                        <div class="input_field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" id="email" name="email">
+                        </div>              
+                    </label>
+                </div>
+
+                <div class="input_box">
+                    <label for="password">
+                        Senha
+                        <div class="input_field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+
+                    <div id="forgot_password">
+                        <a href="#">
+                            Esqueceu a senha?
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+
+        <div id="register">
+            Não tem uma conta? 
+            <a href="register.html" target="_blank">
+                Inscreva-se
+            </a>
+        </div>
+    </main>
+
+    <script src="scriptLogin.js"></script>
+    <script src="https://kit.fontawesome.com/e8f60f12a8.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
